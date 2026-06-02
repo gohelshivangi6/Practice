@@ -9,7 +9,6 @@ const myServer = http.createServer((req, res) => {
     const log = `${Date.now()}: ${req.url} New Req Received\n`;
     const myUrl = url.parse(req.url, true);
     console.log(myUrl);
-    console.log("hello");
     fs.appendFile('log.txt', log, (err, data) => {
         // res.end('Hello From Server');
         switch(myUrl.pathname) {
