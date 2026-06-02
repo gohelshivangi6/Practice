@@ -10,6 +10,7 @@ const myServer = http.createServer((req, res) => {
     const myUrl = url.parse(req.url, true);
     console.log(myUrl);
     console.log("hello");
+    console.log("guys");
     fs.appendFile('log.txt', log, (err, data) => {
         // res.end('Hello From Server');
         switch(myUrl.pathname) {
