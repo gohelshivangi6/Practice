@@ -1,4 +1,5 @@
 const fs = require("fs");
+console.log("hi");
 
 // Sync... Blocking...
 // fs.writeFileSync("test.txt", 'Hey There');
