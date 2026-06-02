@@ -6,6 +6,20 @@ console.log("hi");
 console.log("hi");
 console.log("hi");
 
+console.log("hi");
+console.log("hi");
+console.log("hi");
+console.log("hi");
+
+function test() {
+    console.log("Calculating price");
+    console.log("just a test");
+    return price;
+}
+
+const price = 100;
+console.log(test());
+
 // Sync... Blocking...
 // fs.writeFileSync("test.txt", 'Hey There');
 
