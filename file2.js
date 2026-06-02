@@ -8,7 +8,7 @@ console.log(os.cpus().length)
 // const result = fs.readFileSync('contact.txt', 'utf-8');
 // console.log(result)
 // console.log("2")
-
+console.log("hi");
 // Non-Blocking....
 // console.log("1")
 // fs.readFileSync('contact.txt', 'utf-8', (err, result) => {
