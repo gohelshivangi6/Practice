@@ -8,6 +8,7 @@ function sub(a, b){
 
 function greet() {
     console.log("Hello from feature A");
+    console.log("Hello from main branch");
 }
 
 module.exports = {
