@@ -2,7 +2,7 @@ function updateUser(req, res) {
     const user = {
         name: "Default",
         email: "default@mail.com",
-        role: "user"
+        role: req.body.role
     };
 
     res.send(user);
