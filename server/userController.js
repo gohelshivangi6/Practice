@@ -1,9 +1,10 @@
 function updateUser(req, res) {
     const user = {
-        name: "Default",
+        name: req.body.name,
         email: "default@mail.com",
-        role: "user"
+        role: req.body.role
     };
 
+    console.log("User updated successfully");
     res.send(user);
 }
