@@ -5,6 +5,11 @@ function add(a, b){
 function sub(a, b){
     return a-b
 }
+
+function greet() {
+    console.log("Hello from feature A");
+}
+
 module.exports = {
     add,
     sub,
